@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(247, 209, 226);
+}
+h1{
+    font-size: 40px;
+    color: rgb(119, 10, 222);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 209, 226);
+}
+a{
+    font-size: 24px;
+    text-decoration: none !important;
+    color : rgb(color116, 35, 113) !important;
+}
+header ul{
+    font-size:24px ;
+    color:rgb(105, 24, 71) ;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin: 10px;
+    font-size:24px ;
+    color:rgb(105, 24, 71) ;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+img{ 
+    width: 200px;
+}
+h1{
+    font-size: 24px;
+    color: rgb(105, 24, 71); 
+}
+.presentacion{
+    width: 100%;
+    height:20% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(142, 26, 138);
+}
+.presentacion p{
+    width: 70%;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    padding: 10%;
+    font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+}
+.contenedor{
+    margin: 10px;
+    font-size:24px ;
+    color:rgb(105, 24, 71) ;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    background-color: rgb(247, 209, 226);
+}
+.nav link{
+    font-size: 30px;
+}
+.contenedorcarrusel{
+    margin:  auto ;
+    width: 30%;
+    height:130%;
+    background-color:rgb(247, 209, 226) ;
+    align-items: center;
+}
+.carousel-indicator{
+    background-color:rgb(247, 209, 226) ;
+    margin:  auto ;
+    width: 10%;
+    height:10%;
+}
+.caja{ 
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.logo img{ 
+    border-radius: 50%;
+}
+.caja img{
+    width: 300px;
+    height: 450px;
+}
+
